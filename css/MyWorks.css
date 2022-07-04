@@ -11,6 +11,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+}
+
+.my_skill_two h3 {
+    margin: auto;
 }
 
 .my_skill_one {
@@ -19,7 +24,6 @@
 
 .my_works_left {
     width: 60%;
-    height: 480px;
     overflow-x: scroll;
     overflow-y: hidden;
     /* background-color: white; */
@@ -56,6 +60,7 @@
 
 .my_works_left img {
     width: 200%;
+    object-fit: contain;
 }
 
 .my_works_out {
@@ -115,4 +120,53 @@ li {
 
 .my_works_res_title p {
     line-height: 28px;
+}
+
+@media screen and (max-width:900px) {
+    .my_works_out {
+        display: flex;
+        flex-direction: column;
+    }
+    .my_works_right {
+        width: 100%;
+        margin-top: 24px;
+    }
+    .screen_w {
+        width: 50%;
+    }
+    .my_works_left {
+        width: 100%;
+    }
+    .my_works_right h1 {
+        display: flex;
+        justify-content: center;
+    }
+    .my_works_right span {
+        display: flex;
+        align-items: flex-end;
+        line-height: 28px;
+    }
+    .my_works_left img {
+        width: 200%;
+        object-fit: contain;
+    }
+    .my_works {
+        margin-bottom: 60px;
+    }
+    .my_skill {
+        margin-bottom: 60px;
+    }
+    .my_skill h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .my_works_right li {
+        font-size: 14px;
+    }
+    .my_works_right h1,
+    .my_works_txt {
+        margin-bottom: 16px;
+    }
 }
