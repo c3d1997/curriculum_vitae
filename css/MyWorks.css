@@ -1,0 +1,118 @@
+.my_skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.my_skill_one,
+.my_skill_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my_skill_one {
+    margin-bottom: 30px;
+}
+
+.my_works_left {
+    width: 60%;
+    height: 480px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* background-color: white; */
+}
+
+.my_works_right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my_works_right h1,
+.my_works_txt {
+    margin-bottom: 25px;
+}
+
+.my_works_txt {
+    line-height: 28px;
+}
+
+.my_works_right ul {
+    margin-bottom: 20px;
+}
+
+.my_works_right li {
+    line-height: 28px;
+}
+
+.screen_w {
+    display: flex;
+    width: 50%;
+}
+
+.my_works_left img {
+    width: 200%;
+}
+
+.my_works_out {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.my_works_res {
+    display: flex;
+}
+
+.screen_w img:nth-child(2) {
+    width: 100%;
+}
+
+.my_works_bt img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.my_works_right span {
+    font-size: 16px;
+    padding-left: 16px;
+    ;
+}
+
+.my_works_left {
+    margin-right: 20px;
+}
+
+.my_works {
+    margin-bottom: 120px;
+}
+
+.my_works_bt_out {
+    display: flex;
+}
+
+.my_works_bt {
+    width: 100%;
+}
+
+.my_works_bt a {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+    padding: 8px 0;
+}
+
+.my_works_bt_v {
+    margin-left: 15px;
+}
+
+.my_works_res_title p {
+    line-height: 28px;
+}
