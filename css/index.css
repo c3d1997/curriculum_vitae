@@ -312,6 +312,10 @@ nav.nav_color {
 .about_me_detail_left,
 .about_me_detail_right {
     width: 47%;
+}
+
+.about_me_detail_left p,
+.about_me_detail_right p {
     opacity: 75%;
 }
 
