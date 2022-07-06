@@ -58,6 +58,17 @@
     width: 50%;
 }
 
+.my_works_left {}
+
+.my_works_left::-webkit-scrollbar {
+    height: 15px;
+}
+
+.my_works_left::-webkit-scrollbar-thumb {
+    background: #F4DC02;
+    border-radius: 10px;
+}
+
 .my_works_left img {
     width: 200%;
     object-fit: contain;
